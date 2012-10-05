@@ -1,3 +1,12 @@
+##Note: Conversion PNG to JPEG Hook
+
+If the requested file is a .jpg and a corresponding (same path) .png file is found, the hook will create a .jpg file (100 % quality).
+
+The hook is triggered before SLIR, thus SLIR can then do his job, based on the now available .jpg file.
+
+No changes to SLIR are neccessary, some lines and an inclusion in index.php are the sole changes.
+
+
 ##Note: Additional Sharpness Config
 
 SLIR rendered .jpeg files are much sharper than the originals, especially visible when typo is used.
